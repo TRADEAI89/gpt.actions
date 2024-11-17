@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "name": "search",
+      "description": "Search for real-time market news or financial data.",
+      "parameters": {
+        "query": {
+          "type": "string",
+          "description": "The search query to run."
+        }
+      }
+    },
+    {
+      "name": "get_chart",
+      "description": "Generate a trading chart or visualize market data.",
+      "parameters": {
+        "symbol": {
+          "type": "string",
+          "description": "The trading symbol (e.g., BTCUSD)."
+        },
+        "timeframe": {
+          "type": "string",
+          "description": "The timeframe for the chart (e.g., 1h, 1d)."
+        }
+      }
+    }
+  ]
+}
